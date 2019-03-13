@@ -1,0 +1,29 @@
+{
+  "name": "drag-n-drop-pollyfill",
+  "version": "0.0.1",
+  "description": "Drag and Drop pollyfill working over iframes with different origin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vegaByte/drag-n-drop-pollyfill.git"
+  },
+  "keywords": [
+    "draganddrop",
+    "pollyfill",
+    "iframe",
+    "origins"
+  ],
+  "author": "Raul Vega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vegaByte/drag-n-drop-pollyfill/issues"
+  },
+  "homepage": "https://github.com/vegaByte/drag-n-drop-pollyfill#readme",
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
