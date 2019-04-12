@@ -4,6 +4,8 @@
   "description": "Drag and Drop pollyfill working over iframes with different origin",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,7 +25,14 @@
   },
   "homepage": "https://github.com/vegaByte/drag-n-drop-pollyfill#readme",
   "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "uglifyjs-webpack-plugin": "^2.1.2",
     "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
     "webpack-dev-server": "^3.2.1"
   }
 }
